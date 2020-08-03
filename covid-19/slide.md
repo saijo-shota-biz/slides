@@ -17,7 +17,7 @@ by [@saijo_shota_biz](https://twitter.com/saijo_shota_biz)
 
 ## 自己紹介
 
-![icon](./icon.png)
+![icon](https://github.com/saijo-shota-biz/slides/blob/master/covid-19/icon.png?raw=true)
 
 --
 
@@ -91,13 +91,13 @@ curl --location --request GET 'https://covid19-japan-web-api.now.sh/api//v1/pref
 
 ### 設計
 
-![design1](./design.PNG)
+![design1](https://github.com/saijo-shota-biz/slides/blob/master/covid-19/design.PNG?raw=true)
 
 --
 
 ### コンポーネント分割
 
-![design2](./design2.PNG)
+![design2](https://github.com/saijo-shota-biz/slides/blob/master/covid-19/design2.PNG?raw=true)
 
 --
 
