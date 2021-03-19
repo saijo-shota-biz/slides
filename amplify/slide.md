@@ -24,6 +24,15 @@ by [@saijo_shota](https://twitter.com/saijo_shota_biz)
 - まとめ
 
 
+--
+
+
+対象
+
+- フロントエンドエンジニア
+- モバイルアプリエンジニア
+- ローカルでの開発はだいたいできるようになって、なにかWEBサービス/アプリを作ってみたい人
+
 ---
 
 
@@ -634,6 +643,9 @@ amplify pull --appId xxxxxxxxx --envName prod
 - 複数環境の構築も楽
 - 実装も楽
 - デプロイも楽
+- コマンドも覚えやすい
+  - init, add, push, checkout, status, pull, publish
+  - gitのコマンドに似てる
 
 
 --
@@ -645,6 +657,15 @@ amplify pull --appId xxxxxxxxx --envName prod
 --
 
 
-**神**
+# 神
 
 
+---
+
+
+使ってみたい人向けチュートリアル
+
+- https://amplify-sns.workshop.aws/ja/
+  - Reactでツイッターっぽいアプリを作る
+- https://github.com/dabit3/next.js-amplify-workshop
+  - Next.jsでQiitaっぽい(記事を投稿したりする)アプリを作る
