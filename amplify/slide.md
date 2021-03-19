@@ -1,5 +1,5 @@
 # Amplify が神だった
-by [@saijo_shota_biz](https://twitter.com/saijo_shota_biz)
+by [@saijo_shota](https://twitter.com/saijo_shota_biz)
 
 
 ---
@@ -617,6 +617,12 @@ amplify pull --appId xxxxxxxxx --envName prod
 - githubと連携して自動デプロイ
 - プルリクエストのプレビュー
 - ブランチごとに別の環境
+
+
+--
+
+
+楽すぎて神
 
 
 ---
