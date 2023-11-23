@@ -110,13 +110,16 @@ https://presentify.compzets.com/
 - Webstorm
 - [LGTMoon](https://lgtmoon.herokuapp.com/)
 - setapp
+- reveal.js
 
 ---
 
 ## まとめ
 
-みなさんの気にいって使っているツールを教えてくれたら嬉しいです。
+--
+
+今日この中の誰かに紹介した６つの中の１つでも刺さっていれば嬉しいです。
 
 --
 
-ちなみに今日のLTのスライドは`reveal.js`を使っています。
+みなさんの気にいって使っているツールを教えてください👍
