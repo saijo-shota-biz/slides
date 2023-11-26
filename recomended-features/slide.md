@@ -25,39 +25,11 @@ by [@saijo_shota_biz](https://twitter.com/saijo_shota_biz)
 
 ---
 
-### slack - ワークスペーススイッチャー
-
---
-
-![Alt text](<CleanShot 2023-11-23 at 15.58.33.png>)
-
---
-
-これ出てるだけでSlackの新UIが許せる
-
---
-
-`⌘ + ⇧ + S`(`Command + Shift + S`)
-
----
-
-### clipy
-
---
-
-https://clipy-app.com/
-
----
-
 ### ngrok
 
 --
 
 https://ngrok.com/
-
---
-
-トンネリングツール
 
 --
 
@@ -69,6 +41,14 @@ localhost:3000を共有できるよ
   - ローカルの状態で別端末で見たい
   - 誰かに確認依頼する
   - basic認証かけれるよ
+
+---
+
+### clipy
+
+--
+
+https://clipy-app.com/
 
 ---
 
@@ -107,10 +87,11 @@ https://presentify.compzets.com/
 
 ### おまけ
 
+- slack - ワークスペーススイッチャー
 - Webstorm
 - [LGTMoon](https://lgtmoon.herokuapp.com/)
-- setapp
-- reveal.js
+- [setapp](https://setapp.com/)
+- [reveal.js](https://revealjs.com/)
 
 ---
 
