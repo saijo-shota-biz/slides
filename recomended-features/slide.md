@@ -75,6 +75,9 @@ github上で開けるエディター
 
 https://cleanshot.com/
 
+Note:
+This will only display in the notes window.
+
 ---
 
 ### presentify
