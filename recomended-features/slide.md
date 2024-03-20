@@ -15,7 +15,7 @@ by [@saijo_shota_biz](https://twitter.com/saijo_shota_biz)
 
 --
 
-![twitterのhomeの画像](https://github.com/saijo-shota-biz/slides/blob/master/recomended-features/CleanShot%202023-11-23%20at%2015.42.48.png)
+![twitterのhomeの画像](https://github.com/saijo-shota-biz/slides/blob/master/recomended-features/CleanShot%202023-11-23%20at%2015.42.48.png?raw=true)
 
 
 ---
