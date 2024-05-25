@@ -45,17 +45,12 @@ by [@saijo_shota](https://twitter.com/saijo_shota)
 
 --
 
-それはあなたじゃない誰かが作った目標
+それはあなたじゃない誰かが作ったもの
 
 --
 
 ほんとにできるか<br />
 走り出す前に考えてみましょう
-
---
-
-つまり <br />
-個人スケジュールを作ってみましょう
 
 ---
 
@@ -70,6 +65,10 @@ by [@saijo_shota](https://twitter.com/saijo_shota)
 --
 
 ### タスクを分解する
+
+--
+
+家 to 店 の状態で走り出すのはやめましょう
 
 --
 
@@ -157,6 +156,10 @@ by [@saijo_shota](https://twitter.com/saijo_shota)
 「こんな感じで進めます。問題ないっすか？」<br />
 って確認とっておく
 
+--
+
+### ようやく作業開始
+
 ---
 
 ## まとめ
@@ -174,7 +177,6 @@ by [@saijo_shota](https://twitter.com/saijo_shota)
 
 --
 
-- 自分の持ってるタスクについて作業分割して作業時間を見積もってみる
 - 日報を書く癖をつける
 
 ---
