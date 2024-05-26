@@ -31,10 +31,6 @@ by [@saijo_shota](https://twitter.com/saijo_shota)
 
 11:50分に家を出て間に合う？
 
---
-
-間に合わなかった
-
 ---
 
 ## もらったスケジュール<br/>ほんとにできる？
