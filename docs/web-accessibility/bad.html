@@ -68,25 +68,32 @@
 </head>
 <body>
     <h1>よくないHTML例集</h1>
-    
+
+    <label>
+        フォーカスを当てる用input
+        <input />
+    </label>
+
     <div class="section">
         <h2>divで作ったボタン</h2>
-        <div class="div-button" onclick="alert('divボタンがクリックされました')">
-            divボタン
+        <div class="div-button" onclick="alert('送信ボタンがクリックされました')">
+            送信ボタン
         </div>
     </div>
 
     <div class="section">
-        <h2>aタグで作ったボタン（リンクじゃないのに）</h2>
-        <a href="#" class="a-button" onclick="alert('aボタンがクリックされました'); return false;">
-            aボタン
+        <h2>aタグで作ったボタン</h2>
+        <a href="#" class="a-button" onclick="alert('追加ボタンがクリックされました'); return false;">
+            追加
         </a>
     </div>
 
     <div class="section">
-        <h2>アイコンだけのボタン（nameがない）</h2>
+        <h2>アイコンだけのボタン</h2>
         <button class="icon-button" onclick="alert('追加されました')">
-            +
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"></path>
+            </svg>
         </button>
     </div>
 

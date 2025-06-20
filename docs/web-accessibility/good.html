@@ -69,25 +69,32 @@
 </head>
 <body>
     <h1>良いHTML例集</h1>
-    
+
+    <label>
+        フォーカスを当てる用input
+        <input />
+    </label>
+
     <div class="section">
         <h2>buttonタグで作ったボタン</h2>
-        <button type="button" class="good-button" onclick="alert('buttonタグがクリックされました')">
-            buttonボタン
+        <button type="button" class="good-button" onclick="alert('送信するボタンがクリックされました')">
+            送信する
         </button>
     </div>
 
     <div class="section">
         <h2>適切なリンクボタン（実際にページ遷移する場合）</h2>
         <a href="https://saijo-shota-biz.github.io/slides/web-accessibility/bad.html" class="good-link-button">
-            リンクボタン
+            悪い例に遷移
         </a>
     </div>
 
     <div class="section">
         <h2>適切なname属性を持つアイコンボタン</h2>
         <button type="button" class="icon-button" onclick="alert('アイテムが追加されました')" aria-label="アイテムを追加">
-            +
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M 11 2 L 11 11 L 2 11 L 2 13 L 11 13 L 11 22 L 13 22 L 13 13 L 22 13 L 22 11 L 13 11 L 13 2 Z"></path>
+            </svg>
         </button>
     </div>
 
