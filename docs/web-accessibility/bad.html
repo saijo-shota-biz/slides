@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>よくないHTML例 - アクセシビリティLT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .div-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 5px;
+        }
+        .div-button:hover {
+            background-color: #0056b3;
+        }
+        .a-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+        }
+        .a-button:hover {
+            background-color: #1e7e34;
+        }
+        .icon-button {
+            background-color: #17a2b8;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-block;
+            margin: 5px;
+            font-size: 18px;
+        }
+        .fake-checkbox {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .fake-form input {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>よくないHTML例集</h1>
+    
+    <div class="section">
+        <h2>divで作ったボタン</h2>
+        <div class="div-button" onclick="alert('divボタンがクリックされました')">
+            divボタン
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>aタグで作ったボタン（リンクじゃないのに）</h2>
+        <a href="#" class="a-button" onclick="alert('aボタンがクリックされました'); return false;">
+            aボタン
+        </a>
+    </div>
+
+    <div class="section">
+        <h2>アイコンだけのボタン（nameがない）</h2>
+        <div class="icon-button" onclick="alert('追加されました')">
+            +
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>画像で作ったチェックボックス</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSUkztEoWLZaozAafF-jcgSWzGqQY6qSm3rPJ0UPyJXJGsuhLw97cp5eokE7KgiL_mjT2VWbQ74yYahN_oTYCFe5LmORnkrRKf2CypEwpsI-yvrngOSITWiCGMAVtAtep2ghWJ4nQXswtd/s800/mark_checkbox5_off.png" 
+             class="fake-checkbox" 
+             onclick="this.src = this.src === 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSUkztEoWLZaozAafF-jcgSWzGqQY6qSm3rPJ0UPyJXJGsuhLw97cp5eokE7KgiL_mjT2VWbQ74yYahN_oTYCFe5LmORnkrRKf2CypEwpsI-yvrngOSITWiCGMAVtAtep2ghWJ4nQXswtd/s800/mark_checkbox5_off.png' ? 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbwjibIMr-z61rkqtsWytoa37EPoyVz-dHKwqgZZyH1b6MxtK3_ya3VZvI0GQTfmuh4rrtJ0cj7dwN_LBMkzM6-1UB6MbNch9bIWYxXrHrLQF4bo9EBkkPsGdVlrVkfuK7mti9c-7D1e73/s800/mark_checkbox2_green.png' : 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSUkztEoWLZaozAafF-jcgSWzGqQY6qSm3rPJ0UPyJXJGsuhLw97cp5eokE7KgiL_mjT2VWbQ74yYahN_oTYCFe5LmORnkrRKf2CypEwpsI-yvrngOSITWiCGMAVtAtep2ghWJ4nQXswtd/s800/mark_checkbox5_off.png'"
+             alt="チェックボックス">
+        <span>利用規約に同意する</span>
+    </div>
+
+    <div class="section">
+        <h2>意味のないalt属性</h2>
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='60' viewBox='0 0 100 60'%3E%3Crect width='100' height='60' fill='%23007bff'/%3E%3Ctext x='50' y='35' text-anchor='middle' fill='white'%3ELogo%3C/text%3E%3C/svg%3E" 
+             alt="img" 
+             style="margin: 10px;">
+        
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='35' fill='%23ffc107'/%3E%3Ccircle cx='30' cy='30' r='3' fill='black'/%3E%3Ccircle cx='50' cy='30' r='3' fill='black'/%3E%3Cpath d='M25 50 Q40 65 55 50' stroke='black' stroke-width='2' fill='none'/%3E%3C/svg%3E" 
+             alt="画像" 
+             style="margin: 10px;">
+        
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Crect width='60' height='60' fill='%23dc3545'/%3E%3Ctext x='30' y='35' text-anchor='middle' fill='white'%3E!%3C/text%3E%3C/svg%3E" 
+             alt="icon_warning_01.png" 
+             style="margin: 10px;">
+    </div>
+</body>
+</html>
